@@ -1,0 +1,3 @@
+-keep class com.hyphenate.** {*;}
+-dontwarn  com.hyphenate.**
+-dontwarn com.google.devtools.build.android.desugar.runtime.ThrowableExtension
