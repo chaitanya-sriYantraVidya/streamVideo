@@ -5,9 +5,9 @@ class CallScreen extends StatefulWidget {
   final Call call;
 
   const CallScreen({
-    Key? key,
+    super.key,
     required this.call,
-  }) : super(key: key);
+  });
 
   @override
   State<CallScreen> createState() => _CallScreenState();
